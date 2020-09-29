@@ -3,7 +3,7 @@ import logging
 from pykka import ThreadingActor
 from pysm import StateMachine
 
-# TODO: Is there another design pattern which lets me avoid this janky global hash?
+# TODO: Find another design pattern which lets me avoid this janky global hash
 dispatchers = {}
 
 
