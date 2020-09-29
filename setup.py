@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pykkachu",
-    version="0.0.2",
+    version="0.0.3",
     author="Andrew McKnight",
     author_email="thedonk@gmail.com",
     description="An Actor Model which packages Pykka and FSMs",
