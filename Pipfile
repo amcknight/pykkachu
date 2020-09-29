@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 pykka = "*"
 pysm = "*"
+setuptools = "*"
+wheel = "*"
 
 [requires]
 python_version = "3.8"
