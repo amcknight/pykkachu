@@ -20,6 +20,10 @@ A convenience library on top of Pykka and PySM to help with common Actor Model p
 
 ## Deployment
 
-- pipenv shell
-- python3 setup.py sdist bdist_wheel
-- python3 -m twine upload --repository testpypi dist/*
+```commandline
+rm -rf dist
+pipenv shell
+python3 setup.py sdist bdist_wheel
+python3 -m twine upload --repository testpypi dist/*
+exit
+```
