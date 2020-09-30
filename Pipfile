@@ -9,8 +9,8 @@ verify_ssl = true
 pykka = "*"
 pysm = "*"
 setuptools = "*"
-wheel = "*"
 twine = "*"
+wheel = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3"

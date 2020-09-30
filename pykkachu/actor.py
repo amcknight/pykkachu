@@ -2,7 +2,6 @@ import functools
 import logging
 from pysm import StateMachine
 from pykka import ThreadingActor
-
 from pykkachu.dispatcher import Dispatcher
 
 
